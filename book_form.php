@@ -1,6 +1,6 @@
 <?php
 
-   $connection = mysqli_connect('localhost','root','','book_db');
+   $connection = mysqli_connect('tour-db.c1zkolgry1fg.us-east-1.rds.amazonaws.com','admin','root1234','book_db');
 
    if(isset($_POST['send'])){
       $name = $_POST['name'];
